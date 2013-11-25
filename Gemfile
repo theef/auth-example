@@ -20,14 +20,12 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 
 group :development do
-  gem "pry"
-end
-
-group :development do
-	gem  'pry'
+	gem 'dotenv'
+	gem 'pry'
 end
 
 group :test do
+	gem 'dotenv'
 	gem 'pry'
 
 	gem 'mongoid-rspec'
